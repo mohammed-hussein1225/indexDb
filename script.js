@@ -101,8 +101,8 @@ function displayUsers(users) {
     li.innerHTML = `
       <div>${user.name}</div>
       <div>
-        <button class="update-btn" data-id="${user.id}" data-name="${user.name}">تحديث</button>
-        <button class="delete-btn" data-id="${user.id}">حذف</button>
+        <button class="update-btn" data-id="${user.id}" data-name="${user.name}">update</button>
+        <button class="delete-btn" data-id="${user.id}">delete</button>
       </div>
     `;
     list.appendChild(li);
