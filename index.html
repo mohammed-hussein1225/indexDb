@@ -24,8 +24,32 @@
     }
   </style>
   <body>
-    <input type="text" id="userName" style="margin-left: 50px" />
+    <div>
+      <input
+        type="search"
+        id="searchInput"
+        placeholder="Search"
+        style="margin: 10px 0 10px 50px"
+      />
+    </div>
+
+    <input
+      type="text"
+      id="userName"
+      style="margin-left: 50px"
+      placeholder="Add user"
+    />
     <button id="addUser">Add User</button>
+
+    <div>
+      <button
+        id="update-btn"
+        style="display: none; margin: 10px; margin-left: 80px; padding: 8px"
+      >
+        Update User
+      </button>
+    </div>
+
     <ul id="userList"></ul>
 
     <script src="script.js"></script>
